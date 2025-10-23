@@ -1,0 +1,69 @@
+# Build artifacts
+build/
+dist/
+*.class
+*.jar
+*.war
+*.ear
+
+# Android
+*.apk
+*.ap_
+*.dex
+local.properties
+.gradle/
+captures/
+*.iml
+.idea/
+*.hprof
+
+# Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+node_modules/
+.env
+.env.local
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# CI/CD
+.cache/
+.pytest_cache/
+coverage/
+.coverage
+htmlcov/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Secrets
+secrets/
+*.pem
+*.key
+*.cert
